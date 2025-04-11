@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CMC Saúde Corporativa</title>
+  <style>
+    :root {
+      --verde-escuro: #1E2F27;
+      --dourado: #BFA05B;
+      --off-white: #F2F1EB;
+      --borgonha: #661F25;
+      --hover-dourado: #C8A75D;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--verde-escuro);
+      color: var(--off-white);
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: var(--verde-escuro);
+    }
+
+    h1 {
+      color: var(--dourado);
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .cta-btn {
+      margin-top: 40px;
+      background-color: var(--borgonha);
+      color: var(--off-white);
+      padding: 15px 30px;
+      border: none;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+      background-color: var(--hover-dourado);
+      color: var(--verde-escuro);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Saúde Corporativa com Inteligência e Equilíbrio</h1>
+    <p>Bem-vindo ao seu espaço de bem-estar no ambiente de trabalho.</p>
+    <button class="cta-btn">Fale Conosco</button>
+  </header>
+</body>
+</html>
